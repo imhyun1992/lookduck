@@ -1,0 +1,176 @@
+@charset "utf-8";
+/*reset*/
+
+
+
+/*header*/
+
+
+
+/*mainvisual*/
+
+/*contents*/
+
+h2{
+    width:100%;height:62px;text-align:center;
+    font:bold 30px/62px '이순신 돋움체 B';color:#000;
+}
+
+
+/*new*/
+#contents #new{
+    width:100%;height:440px;margin-bottom:80px;
+}
+
+#contents #new .new_pro{
+    float:left;margin-right:20px;
+    width:285px;
+    position:relative;/*after over*/
+}
+#contents>#new>.new_pro:last-child{margin-right:0;}
+#contents #new .new_pro a{
+    display:block;
+    width:285px;
+    width:285px;
+}
+
+
+#contents #new .new_pro a h3{
+    float:left;font:bold 15px/15px '나눔고딕';
+    color:#474747;padding-top:16px;text-indent:7px;
+}
+#contents #new .new_pro a .hit{margin-left:10px;}
+#contents #new .new_pro a .new{margin-left:5px;}
+#contents #new .new_pro a .color1{
+    width:28px;height:28px;
+    float:right;margin-top:8px;
+}
+#contents #new .new_pro a .pay{
+    clear: both;
+    font:normal 12px/22px '맑은 고딕';color:#000;
+    margin-left:7px;
+}
+
+#contents #new .new_pro a p:first-child{width:285px;height:315px;overflow:hidden;}
+#contents #new .new_pro:hover a p:first-child img{opacity:0.6;}
+#contents #new .new_pro:hover a .pay{font-weight:bold;}
+#contents #new .new_pro:hover a .hit,
+#contents #new .new_pro:hover a .new
+{animation:flash 0.5s infinite;}
+@keyframes flash{
+    0%{opacity:0;}
+    50%{opacity:1;}
+    100%{opacity:0;}
+}
+
+
+/*best*/
+#contents #best{
+    width:100%;height:815px;margin-bottom:80px;
+}
+
+#contents #best ul li{float:left;margin-right:20px;
+    width:224px;height:400px;
+    box-sizing:border-box;
+}
+#contents #best ul li:nth-child(5),
+#contents #best ul li:nth-child(10){margin-right:0;}
+#contents #best ul li a{display: block;}
+
+#contents #best ul li a h3{
+    float:left;font:bold 15px/15px '돋움';
+    color:#474747;padding-top:16px;
+    width:189px; height:28px;text-indent:7px;
+    
+}
+#contents #best ul li a .color2{
+    float:right;margin-top:5px;
+    width:28px;height:28px;margin-right:7px;
+}
+
+#contents #best ul li a .price{
+    float:left;
+    width:50px;height:22px;
+    font:normal 12px/22px '맑은 고딕';color:#000;
+    text-decoration:line-through;
+    margin-left:7px;
+}
+#contents #best ul li a .pay{
+    float:left;
+    width:128px;height:22px;
+    font:normal 12px/22px '맑은 고딕';color:#000;
+    margin-left:7px;
+}
+#contents #best ul li a .pick{width:44px;height:12px;}
+#contents #best ul li a .sale{width:27px;height:13px;}
+
+#contents #best ul li a p:first-child{
+    width:224px;height:305px;overflow: hidden;
+}
+#contents #best ul li a:hover p:first-child img{
+    transform:scale(1.1);opacity:0.6;
+}
+#contents #best ul li a:hover .pay{font-weight:bold;}
+#contents #best ul li a:hover .price{opacity:0.5;}
+#contents #best ul li a:hover .hit,
+#contents #best ul li a:hover .new,
+#contents #best ul li a:hover .pick,
+#contents #best ul li a:hover .sale
+{animation:flash 0.5s infinite;}
+@keyframes flash{
+    0%{opacity:0;}
+    50%{opacity:1;}
+    100%{opacity:0;}
+}
+
+
+
+/*md's pick*/
+#contents #md{
+    width:100%;margin-bottom:80px;overflow: hidden;
+}
+#md #mdsPick figure{
+    width:224px;height:373px;float:left;
+    margin-right:20px;margin-bottom:21px;
+}
+#md #mdsPick figure:nth-child(5n){margin-right:0;}
+
+#md #mdsPick figure figcaption{width:100%;height:66px;position:relative;}
+
+#md #mdsPick figure figcaption .pro_sub{
+    float:left;font:bold 15px/15px '나눔고딕';
+    width:129px;
+    color:#474747;padding-top:16px;text-indent:7px;
+}
+#md #mdsPick figure figcaption p .hit{
+    width:26px;height:13px;margin-top:20px;
+}
+#md #mdsPick figure figcaption p .color3{
+    float:right;position:absolute;top:7px;right:7px;
+    width:28px; height:14px;
+}
+#md #mdsPick figure figcaption .pay{
+    float:left;
+    width:109px;height:22px;
+    font:normal 12px/22px '맑은 고딕';color:#000;
+    margin-left:7px;
+}
+
+#md #mdsPick figure a{display:block;
+    width:224px;height:306px;overflow: hidden;
+}
+#md #mdsPick figure:hover a:first-child img{
+    transform:scale(1.1);opacity:0.6;
+}
+#md #mdsPick figure:hover .pay{font-weight:bold;}
+#md #mdsPick figure:hover .hit,
+#md #mdsPick figure:hover .new,
+#md #mdsPick figure:hover .pick,
+#md #mdsPick figure:hover .sale,
+#md #mdsPick figure:hover .md_s
+{animation:flash 0.5s infinite;}
+@keyframes flash{
+    0%{opacity:0;}
+    50%{opacity:1;}
+    100%{opacity:0;}
+}
